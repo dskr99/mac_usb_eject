@@ -159,7 +159,7 @@ int main(int argc, char *argv[])
 
 	UINT uLocationId = get_facetime();
 	if (uLocationId == 0xffffffff) {
-		printf("No facetime camera found, exiting.");
+		printf("No facetime camera found, exiting.\n");
 		return -1;
 	}
 	printf("Facetime camera found at 0x%08x\n", uLocationId);
